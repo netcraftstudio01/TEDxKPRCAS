@@ -343,7 +343,7 @@ const HomePage = () => {
           
           {/* Animated geometric lines - Top left */}
           <motion.div
-            className="absolute top-0 left-0 w-96 h-40 bg-black border-l-4 border-t-4 border-tedx-red rounded-full"
+            className="absolute top-0 left-0 w-96 h-40 border-l-4 border-t-4 border-tedx-red rounded-full"
             animate={{
               x: [0, 30, 0],
               y: [0, -20, 0],
@@ -354,7 +354,7 @@ const HomePage = () => {
           
           {/* Animated geometric lines - Top right */}
           <motion.div
-            className="absolute top-20 right-0 w-80 h-32 bg-black border-r-4 border-t-4 border-tedx-red rounded-full"
+            className="absolute top-20 right-0 w-80 h-32 border-r-4 border-t-4 border-tedx-red rounded-full"
             animate={{
               x: [0, -40, 0],
               y: [0, 15, 0],
@@ -365,7 +365,7 @@ const HomePage = () => {
           
           {/* Animated geometric lines - Bottom left */}
           <motion.div
-            className="absolute bottom-0 left-10 w-72 h-36 bg-black border-l-4 border-b-4 border-tedx-red rounded-full"
+            className="absolute bottom-0 left-10 w-72 h-36 border-l-4 border-b-4 border-tedx-red rounded-full"
             animate={{
               x: [0, 25, 0],
               y: [0, 25, 0],
@@ -376,7 +376,7 @@ const HomePage = () => {
           
           {/* Animated geometric lines - Bottom right */}
           <motion.div
-            className="absolute bottom-20 right-20 w-96 h-40 bg-black border-r-4 border-b-4 border-tedx-red rounded-full"
+            className="absolute bottom-20 right-20 w-96 h-40 border-r-4 border-b-4 border-tedx-red rounded-full"
             animate={{
               x: [0, -35, 0],
               y: [0, 20, 0],
@@ -387,7 +387,7 @@ const HomePage = () => {
           
           {/* Animated morphing shapes */}
           <motion.div
-            className="absolute top-1/4 -right-40 w-[500px] h-[500px] bg-black border-4 border-tedx-red blur-lg rounded-full animate-morph"
+            className="absolute top-1/4 -right-40 w-[500px] h-[500px] border-4 border-tedx-red blur-lg rounded-full animate-morph"
             animate={{
               scale: [1, 1.2, 1],
               opacity: [0.3, 0.6, 0.3],
@@ -397,7 +397,7 @@ const HomePage = () => {
             transition={{ duration: 6, repeat: Infinity }}
           />
           <motion.div
-            className="absolute bottom-1/4 -left-40 w-[400px] h-[400px] bg-black border-4 border-tedx-red blur-lg rounded-full animate-morph"
+            className="absolute bottom-1/4 -left-40 w-[400px] h-[400px] border-4 border-tedx-red blur-lg rounded-full animate-morph"
             style={{ animationDelay: '2s' }}
             animate={{
               scale: [1.2, 1, 1.2],
