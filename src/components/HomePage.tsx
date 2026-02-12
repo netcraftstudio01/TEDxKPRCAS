@@ -232,7 +232,7 @@ const HomePage = () => {
               className="font-display text-2xl font-bold"
               whileHover={{ scale: 1.05 }}
             >
-              <span className="text-tedx-red">TED<span className="text-lg inline-block align-text-top relative" style={{top: '-4px'}}>x</span></span>
+              <span className="text-tedx-red">TED<span className="text-lg inline-block align-text-top relative" style={{top: '3px'}}>x</span></span>
               <span className="text-foreground ml-2">KPRCAS</span>
             </motion.div>
 
@@ -379,7 +379,7 @@ const HomePage = () => {
               <span className="text-tedx-red animate-pulse-glow">TED</span>
               <motion.span 
                 className="text-foreground inline-block text-4xl md:text-5xl lg:text-6xl align-text-top relative" 
-                style={{top: '-8px'}}
+                style={{top: '72px'}}
                 whileHover={{ rotate: 180, scale: 1.2 }}
                 transition={{ type: "spring", stiffness: 200 }}
               >
@@ -868,7 +868,7 @@ const HomePage = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {speakers.map((speaker, index) => (
-              <SpeakerCard key={speaker.name} {...speaker} index={index} />
+              <SpeakerCard key={index} {...speaker} index={index} />
             ))}
           </div>
         </div>
@@ -1127,7 +1127,7 @@ const HomePage = () => {
             whileHover={{ scale: 1.05 }}
           >
             <span className="text-foreground">TED</span>
-            <span className="text-tedx-red text-xl relative" style={{top: '-11px'}}>X</span>
+            <span className="text-tedx-red text-xl relative" style={{top: '1px'}}>X</span>
             <span className="text-foreground ml-2">KPRCAS</span>
           </motion.div>
           <p className="mt-4 text-muted-foreground text-sm font-body">
